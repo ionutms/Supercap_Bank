@@ -2,9 +2,3745 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid c896fba9-ce18-4c7c-9ca0-858a4c405263)
+	(uuid "c896fba9-ce18-4c7c-9ca0-858a4c405263")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "CAPACITORS_HV_DATA_BASE:C_HV1030-2R7106-R"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10 F"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "capacitor_footprints:C_197x394_H31_5_5_0x10Metric"
+				(at 0 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdf"
+				(at 0 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP SMD 10 F Supercapacitor 10% 197x394_H31_5 2.7V"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Capacitor Type" "Supercapacitor"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - in" "197x394_H31_5"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case Code - mm" "5_0x10"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" "Supercapacitor"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "HV1030-2R7106-R"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Eaton Electronics"
+				(at 0 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "HV1030-2R7"
+				(at 0 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "C_HV1030-2R7106-R"
+				(at 0 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "10%"
+				(at 0 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV1030-2R7106-R"
+				(at 0 -38.1 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating" "2.7V"
+				(at 0 -40.64 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "C_HV1030-2R7106-R_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.016) (xy -2.54 -2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.524) (xy -3.048 -1.524)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -2.032) (xy -0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 -2.032)
+					(mid 0.9088 0)
+					(end 1.524 2.032)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_HV1030-2R7106-R_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CONNECTORS_FTSH-1xx-04-L-DH_DATA_BASE:J_FTSH-102-04-L-DH"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 5.08 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FTSH-102-04-L-DH"
+				(at 5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "connector_footprints:FTSH-102-04-L-DH"
+				(at 5.08 -7.62 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/ftsh_smt.pdf?_gl=1*uwyfuk*_gcl_au*OTQ3NjE2MTIwLjE3NTQ5MDMyODE.*_ga*NzIxODQzNjU3LjE3NTQ5MDMyODI.*_ga_3KFNZC07WW*czE3NTk5OTE3NDIkbzE1JGcxJHQxNzU5OTkxODU5JGo4JGwwJGgw"
+				(at 5.08 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Samtec FTSH-1xx-04-L-DH series,  2 positions connector,  1.27 mm pitch,  Black,  Horizontal mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
+				(at 5.08 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Color" "Black"
+				(at 5.08 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Contact Plating" "Tin"
+				(at 5.08 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Current Rating (A)" "5.2"
+				(at 5.08 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "FTSH-102-04-L-DH"
+				(at 5.08 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samtec"
+				(at 5.08 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Angle" "Horizontal"
+				(at 5.08 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Style" "Surface Mount"
+				(at 5.08 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Number of Rows" "2"
+				(at 5.08 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pin Count" "2"
+				(at 5.08 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pitch (mm)" "1.27"
+				(at 5.08 -38.1 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "FTSH-1xx-04-L-DH"
+				(at 5.08 -40.64 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "J_FTSH-102-04-L-DH"
+				(at 5.08 -43.18 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FTSH-102-04-L-DH"
+				(at 5.08 -45.72 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating (V)" "300"
+				(at 5.08 -48.26 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "J_FTSH-102-04-L-DH_0_0"
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "J_FTSH-102-04-L-DH_1_0"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UNITED_NO_COMPONENTS_DATA_BASE:Fiducial"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "no_components_footprints:Fiducial_0.5mm_Mask1mm"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 142.3165 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c37fe26-9777-4817-af73-4a06e08f9f0f")
+	)
+	(junction
+		(at 157.5565 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d29e750-cb40-4403-8fd7-ee28de5358ea")
+	)
+	(junction
+		(at 157.48 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f03e443-310e-4416-af98-dbf233ebcdc2")
+	)
+	(junction
+		(at 142.3165 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3194111a-1ece-48c9-a470-5568d21e4f31")
+	)
+	(junction
+		(at 157.5565 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44db172d-da26-4114-9c71-b8119b623e18")
+	)
+	(junction
+		(at 142.3165 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4595648a-f949-49d3-9389-0342f9aa20b1")
+	)
+	(junction
+		(at 165.1 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46251809-d2f5-4e56-b976-95d9e061d9c9")
+	)
+	(junction
+		(at 142.24 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "466586cc-985f-4e83-a502-00d385750f00")
+	)
+	(junction
+		(at 157.5565 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "492d715c-cba8-430b-a93b-b55ba5eae796")
+	)
+	(junction
+		(at 157.5565 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a958322-780e-4d88-a465-9dd0a3d6b417")
+	)
+	(junction
+		(at 157.5565 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73936ae0-2c6d-4328-8c4b-a3d141bdaf0b")
+	)
+	(junction
+		(at 165.1 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79338eb3-3c39-4dcf-aecc-fd3426c706da")
+	)
+	(junction
+		(at 142.3165 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91bb7961-b485-43b9-b18e-f603798935f8")
+	)
+	(junction
+		(at 157.5565 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94a6aca9-186b-449e-a896-2ada40967ae9")
+	)
+	(junction
+		(at 165.1 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c79b169-323c-471b-8e28-4a6b2c1cba25")
+	)
+	(junction
+		(at 165.1 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8d38002-01c2-43cb-8b08-fc61273835b1")
+	)
+	(junction
+		(at 157.48 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0972dec-8775-41d2-b998-a6152076f2b8")
+	)
+	(junction
+		(at 157.5565 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea531422-ed9c-41c4-8a75-f47b22f21e39")
+	)
+	(junction
+		(at 157.5565 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f092153e-4ce5-4fbc-8884-ae79f7e4d1c8")
+	)
+	(wire
+		(pts
+			(xy 142.3165 81.28) (xy 142.3165 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03a34f8f-8371-4940-8ee5-efd71d51bd38")
+	)
+	(wire
+		(pts
+			(xy 155.0165 53.34) (xy 157.5565 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c387614-0e3e-4d51-9df3-d200ba69ce5f")
+	)
+	(wire
+		(pts
+			(xy 155.0165 104.14) (xy 157.5565 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ed0efe1-8e38-4b48-8a78-c065dfe5b23d")
+	)
+	(wire
+		(pts
+			(xy 142.3165 104.14) (xy 142.3165 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f5fc7d3-0294-4706-b423-a8f7e5f098ed")
+	)
+	(wire
+		(pts
+			(xy 142.24 68.58) (xy 142.24 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10009a86-fe32-409b-ba3a-d0557f541caa")
+	)
+	(wire
+		(pts
+			(xy 142.3165 104.14) (xy 144.8565 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16579c24-ef95-4de8-bc57-e87dcf74d536")
+	)
+	(wire
+		(pts
+			(xy 165.1 111.76) (xy 165.1 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2348448a-44ad-49db-bac4-930a3f93532d")
+	)
+	(wire
+		(pts
+			(xy 142.24 68.58) (xy 144.78 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "282a7893-119c-4e11-bb36-a92d9983258c")
+	)
+	(wire
+		(pts
+			(xy 157.5565 104.14) (xy 157.5565 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31ccd566-7d70-4237-bf46-fdc15b455aee")
+	)
+	(wire
+		(pts
+			(xy 142.3165 88.9) (xy 144.8565 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "326498d1-62e5-45cc-b3bc-aab23600ce2d")
+	)
+	(wire
+		(pts
+			(xy 157.5565 81.28) (xy 157.5565 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b27e6e-f995-447f-843f-949f55b8ca55")
+	)
+	(wire
+		(pts
+			(xy 165.1 99.06) (xy 165.1 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3713c038-50eb-4df3-b040-e4a4d01bb1a0")
+	)
+	(wire
+		(pts
+			(xy 155.0165 86.36) (xy 157.5565 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b80a14-510c-47f0-af45-6060fcdae847")
+	)
+	(wire
+		(pts
+			(xy 165.1 76.2) (xy 165.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41380715-b8a8-4481-a0b1-42a3f247ca3b")
+	)
+	(wire
+		(pts
+			(xy 142.3165 99.06) (xy 142.3165 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4206a20a-936c-4089-99d9-d7dcaa939377")
+	)
+	(wire
+		(pts
+			(xy 142.3165 116.84) (xy 142.3165 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4650e86a-0287-4155-98d0-582a13742462")
+	)
+	(wire
+		(pts
+			(xy 142.24 71.12) (xy 144.78 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b108796-cf4d-4477-8f0c-71196f58d60f")
+	)
+	(wire
+		(pts
+			(xy 165.1 93.98) (xy 165.1 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "501a5028-af57-4626-ae69-7a342968c1d3")
+	)
+	(wire
+		(pts
+			(xy 157.5565 45.72) (xy 165.1 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "532415b0-e965-44d7-9d98-ae102f2adb7a")
+	)
+	(wire
+		(pts
+			(xy 142.3165 124.46) (xy 144.8565 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5794e4fe-4827-496d-9abd-a0ec5ba9758e")
+	)
+	(wire
+		(pts
+			(xy 154.94 68.58) (xy 157.48 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57dcae8c-a879-4a38-a813-3cd424d1ebbb")
+	)
+	(wire
+		(pts
+			(xy 157.48 68.58) (xy 157.48 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60381b0a-9aff-422f-bc89-9fdadfaafbec")
+	)
+	(wire
+		(pts
+			(xy 165.1 81.28) (xy 165.1 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63725937-38d7-4b60-9aae-a5a032ce18b8")
+	)
+	(wire
+		(pts
+			(xy 157.5565 81.28) (xy 165.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c4abee-a37a-4590-964b-b8e736fe6f08")
+	)
+	(wire
+		(pts
+			(xy 154.94 71.12) (xy 157.48 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "724780c7-c550-4863-aba7-24f8677d92d8")
+	)
+	(wire
+		(pts
+			(xy 142.3165 45.72) (xy 142.3165 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "756120c2-374d-40fd-9785-ad63435572ce")
+	)
+	(wire
+		(pts
+			(xy 142.3165 121.92) (xy 144.8565 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d19fb5-7aba-4556-a032-6dd1bfed43fa")
+	)
+	(wire
+		(pts
+			(xy 157.48 63.5) (xy 142.24 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a607a66-b159-427c-81e9-29e0a8484688")
+	)
+	(wire
+		(pts
+			(xy 142.3165 99.06) (xy 157.5565 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d7fd02f-8359-4e13-a099-2cd59e876e61")
+	)
+	(wire
+		(pts
+			(xy 157.5565 116.84) (xy 165.1 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84804927-c75d-4fa2-8b44-a15f11355a17")
+	)
+	(wire
+		(pts
+			(xy 142.24 63.5) (xy 142.24 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87906184-d08d-4f52-ab5b-a14f23a5559c")
+	)
+	(wire
+		(pts
+			(xy 165.1 63.5) (xy 165.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8791b54f-708f-4dea-9d8a-4c56268cfc17")
+	)
+	(wire
+		(pts
+			(xy 142.3165 106.68) (xy 144.8565 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87eb3451-0e79-43df-8f49-15be990c442c")
+	)
+	(wire
+		(pts
+			(xy 157.48 63.5) (xy 157.48 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89dbfa38-342e-4149-b7ae-5f6800474cab")
+	)
+	(wire
+		(pts
+			(xy 142.3165 53.34) (xy 144.8565 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb45bce-5748-4346-8d7d-a291e453df80")
+	)
+	(wire
+		(pts
+			(xy 157.5565 86.36) (xy 157.5565 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c954996-d4c2-48fb-a677-e337a0ecb3ed")
+	)
+	(wire
+		(pts
+			(xy 157.5565 99.06) (xy 165.1 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8da2f74a-bec8-4cbd-a2db-814850ce5388")
+	)
+	(wire
+		(pts
+			(xy 142.3165 45.72) (xy 157.5565 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f5d1000-fdcb-4fb7-817d-a2120e518773")
+	)
+	(wire
+		(pts
+			(xy 165.1 45.72) (xy 165.1 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "972f7b3e-71f9-4474-8958-6e4418391be1")
+	)
+	(wire
+		(pts
+			(xy 142.3165 81.28) (xy 157.5565 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e8894c4-ad11-45fa-b465-edaa869baae0")
+	)
+	(wire
+		(pts
+			(xy 157.5565 45.72) (xy 157.5565 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a18ca122-b302-4890-be51-0e2ae11a9231")
+	)
+	(wire
+		(pts
+			(xy 155.0165 121.92) (xy 157.5565 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8b98181-5ce0-4d47-8e24-e255bee8199c")
+	)
+	(wire
+		(pts
+			(xy 155.0165 50.8) (xy 157.5565 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa23dca-5069-4d76-a06d-43ad15e0091d")
+	)
+	(wire
+		(pts
+			(xy 155.0165 106.68) (xy 157.5565 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeaeb3dc-239e-4a94-90b7-3073610d4a40")
+	)
+	(wire
+		(pts
+			(xy 142.3165 50.8) (xy 144.8565 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d515f6-e42b-40cf-bc74-07d31431bfd2")
+	)
+	(wire
+		(pts
+			(xy 157.5565 99.06) (xy 157.5565 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b941e286-5800-42c8-b796-798581a95c42")
+	)
+	(wire
+		(pts
+			(xy 142.3165 86.36) (xy 142.3165 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc9342f9-496e-4fce-8a00-a819eddd9179")
+	)
+	(wire
+		(pts
+			(xy 155.0165 124.46) (xy 157.5565 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c43addf4-74e4-46c7-9ff0-8c08e6092ac2")
+	)
+	(wire
+		(pts
+			(xy 142.3165 116.84) (xy 157.5565 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c98020af-e519-4859-9762-e223e7ba22dc")
+	)
+	(wire
+		(pts
+			(xy 142.3165 86.36) (xy 144.8565 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce687ce3-791a-4f22-bfbb-79baf9a544bb")
+	)
+	(wire
+		(pts
+			(xy 142.3165 50.8) (xy 142.3165 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcc09f0d-a74e-4352-b3b0-b1165f8cd918")
+	)
+	(wire
+		(pts
+			(xy 165.1 58.42) (xy 165.1 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e132b855-1e74-44ba-8ec8-031ec30f85c4")
+	)
+	(wire
+		(pts
+			(xy 155.0165 88.9) (xy 157.5565 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c2f4ba-dfd8-4fb8-bef9-e95e5d2818d6")
+	)
+	(wire
+		(pts
+			(xy 157.5565 121.92) (xy 157.5565 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d4c5d4-082e-44af-9c0b-d31351693c13")
+	)
+	(wire
+		(pts
+			(xy 142.3165 121.92) (xy 142.3165 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaecb85a-a512-4053-acfe-cc7d472b88b0")
+	)
+	(wire
+		(pts
+			(xy 157.5565 50.8) (xy 157.5565 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec1a6bce-075b-4147-8004-1d2b8ef2813d")
+	)
+	(wire
+		(pts
+			(xy 165.1 116.84) (xy 165.1 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb656a70-4143-48b3-8eac-ee97939a731b")
+	)
+	(wire
+		(pts
+			(xy 165.1 63.5) (xy 157.48 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdfdd3c1-cbd6-47eb-a2a2-b9f3bb2f6abb")
+	)
+	(wire
+		(pts
+			(xy 157.5565 116.84) (xy 157.5565 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe1b6f71-de5e-4dcd-a84d-7d2a2ea524c5")
+	)
+	(label "VCAP_3"
+		(at 142.3165 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0211f209-5dd2-43e6-b97c-c30527a4294a")
+	)
+	(label "VCAP"
+		(at 142.3165 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15bd5b85-927b-4ae9-bbc4-5febe761cfc5")
+	)
+	(label "VCAP_2"
+		(at 142.3165 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fc62842-01b1-4ae9-9e9c-6d9f4d78d734")
+	)
+	(label "VCAP_1"
+		(at 142.3165 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7ad12df-0c52-42f2-b272-8f02c6c862e7")
+	)
+	(symbol
+		(lib_id "CONNECTORS_FTSH-1xx-04-L-DH_DATA_BASE:J_FTSH-102-04-L-DH")
+		(at 149.9365 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "053e49ef-cea1-4cec-bb0b-68f51ae574b4")
+		(property "Reference" "J6"
+			(at 149.9365 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FTSH-102-04-L-DH"
+			(at 149.9365 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "connector_footprints:FTSH-102-04-L-DH"
+			(at 155.0165 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/ftsh_smt.pdf?_gl=1*uwyfuk*_gcl_au*OTQ3NjE2MTIwLjE3NTQ5MDMyODE.*_ga*NzIxODQzNjU3LjE3NTQ5MDMyODI.*_ga_3KFNZC07WW*czE3NTk5OTE3NDIkbzE1JGcxJHQxNzU5OTkxODU5JGo4JGwwJGgw"
+			(at 155.0165 62.23 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samtec FTSH-1xx-04-L-DH series,  2 positions connector,  1.27 mm pitch,  Black,  Horizontal mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
+			(at 155.0165 64.77 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Black"
+			(at 155.0165 67.31 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 155.0165 69.85 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "5.2"
+			(at 155.0165 72.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FTSH-102-04-L-DH"
+			(at 155.0165 74.93 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 155.0165 77.47 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Horizontal"
+			(at 155.0165 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Surface Mount"
+			(at 155.0165 82.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "2"
+			(at 155.0165 85.09 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 155.0165 87.63 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "1.27"
+			(at 155.0165 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "FTSH-1xx-04-L-DH"
+			(at 155.0165 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_FTSH-102-04-L-DH"
+			(at 155.0165 95.25 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FTSH-102-04-L-DH"
+			(at 155.0165 97.79 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 155.0165 100.33 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2035a5c-d8a3-43f7-aacd-3c5cace6dc0c")
+		)
+		(pin "4"
+			(uuid "670948e3-65d3-43d5-b9b0-e0e8420d8e09")
+		)
+		(pin "2"
+			(uuid "ea1d57ab-fdb8-4819-9856-6f5bef357d69")
+		)
+		(pin "3"
+			(uuid "ff289965-b6d0-4bdd-b2cb-9f0d8911bbb6")
+		)
+		(instances
+			(project ""
+				(path "/c896fba9-ce18-4c7c-9ca0-858a4c405263"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25d503e4-e6b6-48ac-8b47-c10e64f738b3")
+		(property "Reference" "#PWR018"
+			(at 165.1 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a37b695d-8b9c-40de-ab7c-1c41ded192b4")
+		)
+		(instances
+			(project "supercap_bank"
+				(path "/c896fba9-ce18-4c7c-9ca0-858a4c405263"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CAPACITORS_HV_DATA_BASE:C_HV1030-2R7106-R")
+		(at 165.1 107.95 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38bff0dc-80e1-4b61-94c9-0ef849b865e4")
+		(property "Reference" "C23"
+			(at 168.91 105.9179 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10 F"
+			(at 168.91 108.4579 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "capacitor_footprints:C_197x394_H31_5_5_0x10Metric"
+			(at 172.72 107.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdf"
+			(at 175.26 107.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 10 F Supercapacitor 10% 197x394_H31_5 2.7V"
+			(at 177.8 107.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitor Type" "Supercapacitor"
+			(at 180.34 107.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "197x394_H31_5"
+			(at 182.88 107.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "5_0x10"
+			(at 185.42 107.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "Supercapacitor"
+			(at 187.96 107.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HV1030-2R7106-R"
+			(at 190.5 107.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Eaton Electronics"
+			(at 193.04 107.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "HV1030-2R7"
+			(at 195.58 107.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_HV1030-2R7106-R"
+			(at 198.12 107.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 200.66 107.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV1030-2R7106-R"
+			(at 203.2 107.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "2.7V"
+			(at 205.74 107.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "08cf8359-435e-4e2e-b3e8-b9c40f81a6ee")
+		)
+		(pin "1"
+			(uuid "40de8528-197d-4504-a207-c1aa0863dbab")
+		)
+		(instances
+			(project "supercap_bank"
+				(path "/c896fba9-ce18-4c7c-9ca0-858a4c405263"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_NO_COMPONENTS_DATA_BASE:Fiducial")
+		(at 152.4 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4015ad95-ec35-46f3-b4ef-ceced06c406d")
+		(property "Reference" "FID2"
+			(at 154.94 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 154.94 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "no_components_footprints:Fiducial_0.5mm_Mask1mm"
+			(at 152.4 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 152.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "supercap_bank"
+				(path "/c896fba9-ce18-4c7c-9ca0-858a4c405263"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS_FTSH-1xx-04-L-DH_DATA_BASE:J_FTSH-102-04-L-DH")
+		(at 149.9365 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dec6d9e-fe19-4e83-be2a-845cbf937cf2")
+		(property "Reference" "J10"
+			(at 149.9365 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FTSH-102-04-L-DH"
+			(at 149.9365 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "connector_footprints:FTSH-102-04-L-DH"
+			(at 155.0165 130.81 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/ftsh_smt.pdf?_gl=1*uwyfuk*_gcl_au*OTQ3NjE2MTIwLjE3NTQ5MDMyODE.*_ga*NzIxODQzNjU3LjE3NTQ5MDMyODI.*_ga_3KFNZC07WW*czE3NTk5OTE3NDIkbzE1JGcxJHQxNzU5OTkxODU5JGo4JGwwJGgw"
+			(at 155.0165 133.35 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samtec FTSH-1xx-04-L-DH series,  2 positions connector,  1.27 mm pitch,  Black,  Horizontal mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
+			(at 155.0165 135.89 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Black"
+			(at 155.0165 138.43 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 155.0165 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "5.2"
+			(at 155.0165 143.51 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FTSH-102-04-L-DH"
+			(at 155.0165 146.05 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 155.0165 148.59 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Horizontal"
+			(at 155.0165 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Surface Mount"
+			(at 155.0165 153.67 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "2"
+			(at 155.0165 156.21 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 155.0165 158.75 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "1.27"
+			(at 155.0165 161.29 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "FTSH-1xx-04-L-DH"
+			(at 155.0165 163.83 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_FTSH-102-04-L-DH"
+			(at 155.0165 166.37 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FTSH-102-04-L-DH"
+			(at 155.0165 168.91 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 155.0165 171.45 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f84a17ff-fb29-40df-9c05-ed1eb10e236b")
+		)
+		(pin "4"
+			(uuid "a3a83242-5555-4807-b31f-d5e7f49c1ed0")
+		)
+		(pin "2"
+			(uuid "d0ab9c1f-2b03-49bb-91e1-af58a818d3a9")
+		)
+		(pin "3"
+			(uuid "f873be2d-3997-40aa-a590-2bd2da35887a")
+		)
+		(instances
+			(project "supercap_bank"
+				(path "/c896fba9-ce18-4c7c-9ca0-858a4c405263"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CAPACITORS_HV_DATA_BASE:C_HV1030-2R7106-R")
+		(at 165.1 90.17 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86aa96f2-0822-4d7e-b907-8278268c8c09")
+		(property "Reference" "C22"
+			(at 168.91 88.1379 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10 F"
+			(at 168.91 90.6779 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "capacitor_footprints:C_197x394_H31_5_5_0x10Metric"
+			(at 172.72 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdf"
+			(at 175.26 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 10 F Supercapacitor 10% 197x394_H31_5 2.7V"
+			(at 177.8 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitor Type" "Supercapacitor"
+			(at 180.34 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "197x394_H31_5"
+			(at 182.88 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "5_0x10"
+			(at 185.42 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "Supercapacitor"
+			(at 187.96 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HV1030-2R7106-R"
+			(at 190.5 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Eaton Electronics"
+			(at 193.04 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "HV1030-2R7"
+			(at 195.58 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_HV1030-2R7106-R"
+			(at 198.12 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 200.66 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV1030-2R7106-R"
+			(at 203.2 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "2.7V"
+			(at 205.74 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc4963e0-59f1-4643-83ee-0ae3b569d099")
+		)
+		(pin "1"
+			(uuid "3602b5b0-3bdd-4202-93b9-ef7699eb645b")
+		)
+		(instances
+			(project "supercap_bank"
+				(path "/c896fba9-ce18-4c7c-9ca0-858a4c405263"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CAPACITORS_HV_DATA_BASE:C_HV1030-2R7106-R")
+		(at 165.1 72.39 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ff77777-7e16-473a-b59e-9b36359c5e4f")
+		(property "Reference" "C21"
+			(at 168.91 70.3579 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10 F"
+			(at 168.91 72.8979 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "capacitor_footprints:C_197x394_H31_5_5_0x10Metric"
+			(at 172.72 72.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdf"
+			(at 175.26 72.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 10 F Supercapacitor 10% 197x394_H31_5 2.7V"
+			(at 177.8 72.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitor Type" "Supercapacitor"
+			(at 180.34 72.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "197x394_H31_5"
+			(at 182.88 72.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "5_0x10"
+			(at 185.42 72.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "Supercapacitor"
+			(at 187.96 72.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HV1030-2R7106-R"
+			(at 190.5 72.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Eaton Electronics"
+			(at 193.04 72.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "HV1030-2R7"
+			(at 195.58 72.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_HV1030-2R7106-R"
+			(at 198.12 72.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 200.66 72.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV1030-2R7106-R"
+			(at 203.2 72.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "2.7V"
+			(at 205.74 72.39 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a6c41c58-7a4d-4ee7-b867-3219fe495485")
+		)
+		(pin "1"
+			(uuid "cba341ad-a9bc-432b-9869-2465992a427f")
+		)
+		(instances
+			(project "supercap_bank"
+				(path "/c896fba9-ce18-4c7c-9ca0-858a4c405263"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS_FTSH-1xx-04-L-DH_DATA_BASE:J_FTSH-102-04-L-DH")
+		(at 149.9365 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad52797c-e72d-406d-aae3-a05f60299af6")
+		(property "Reference" "J9"
+			(at 149.9365 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FTSH-102-04-L-DH"
+			(at 149.9365 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "connector_footprints:FTSH-102-04-L-DH"
+			(at 155.0165 113.03 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/ftsh_smt.pdf?_gl=1*uwyfuk*_gcl_au*OTQ3NjE2MTIwLjE3NTQ5MDMyODE.*_ga*NzIxODQzNjU3LjE3NTQ5MDMyODI.*_ga_3KFNZC07WW*czE3NTk5OTE3NDIkbzE1JGcxJHQxNzU5OTkxODU5JGo4JGwwJGgw"
+			(at 155.0165 115.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samtec FTSH-1xx-04-L-DH series,  2 positions connector,  1.27 mm pitch,  Black,  Horizontal mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
+			(at 155.0165 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Black"
+			(at 155.0165 120.65 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 155.0165 123.19 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "5.2"
+			(at 155.0165 125.73 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FTSH-102-04-L-DH"
+			(at 155.0165 128.27 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 155.0165 130.81 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Horizontal"
+			(at 155.0165 133.35 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Surface Mount"
+			(at 155.0165 135.89 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "2"
+			(at 155.0165 138.43 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 155.0165 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "1.27"
+			(at 155.0165 143.51 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "FTSH-1xx-04-L-DH"
+			(at 155.0165 146.05 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_FTSH-102-04-L-DH"
+			(at 155.0165 148.59 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FTSH-102-04-L-DH"
+			(at 155.0165 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 155.0165 153.67 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aeb8e685-7e34-458c-bae3-e2195a584ccd")
+		)
+		(pin "4"
+			(uuid "03de9d2a-9214-4fd1-8e83-05f2ea1246e4")
+		)
+		(pin "2"
+			(uuid "1bfea257-4d93-4cea-a85c-f70e660b15c9")
+		)
+		(pin "3"
+			(uuid "4a3cce5f-d755-4fc3-9454-adcf49247d62")
+		)
+		(instances
+			(project "supercap_bank"
+				(path "/c896fba9-ce18-4c7c-9ca0-858a4c405263"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS_FTSH-1xx-04-L-DH_DATA_BASE:J_FTSH-102-04-L-DH")
+		(at 149.86 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2e18041-55dc-42cd-8789-ddd943759973")
+		(property "Reference" "J7"
+			(at 149.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FTSH-102-04-L-DH"
+			(at 149.86 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "connector_footprints:FTSH-102-04-L-DH"
+			(at 154.94 77.47 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/ftsh_smt.pdf?_gl=1*uwyfuk*_gcl_au*OTQ3NjE2MTIwLjE3NTQ5MDMyODE.*_ga*NzIxODQzNjU3LjE3NTQ5MDMyODI.*_ga_3KFNZC07WW*czE3NTk5OTE3NDIkbzE1JGcxJHQxNzU5OTkxODU5JGo4JGwwJGgw"
+			(at 154.94 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samtec FTSH-1xx-04-L-DH series,  2 positions connector,  1.27 mm pitch,  Black,  Horizontal mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
+			(at 154.94 82.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Black"
+			(at 154.94 85.09 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 154.94 87.63 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "5.2"
+			(at 154.94 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FTSH-102-04-L-DH"
+			(at 154.94 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 154.94 95.25 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Horizontal"
+			(at 154.94 97.79 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Surface Mount"
+			(at 154.94 100.33 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "2"
+			(at 154.94 102.87 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 154.94 105.41 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "1.27"
+			(at 154.94 107.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "FTSH-1xx-04-L-DH"
+			(at 154.94 110.49 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_FTSH-102-04-L-DH"
+			(at 154.94 113.03 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FTSH-102-04-L-DH"
+			(at 154.94 115.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 154.94 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab25b6f3-563f-417b-a818-69fa309905e9")
+		)
+		(pin "4"
+			(uuid "b95ba343-eb87-479f-b618-0487b6729a0c")
+		)
+		(pin "2"
+			(uuid "07fbddae-4ad6-4f03-8380-c45f1654c77e")
+		)
+		(pin "3"
+			(uuid "4a88c370-ccc4-4f1f-8258-aba1566b8680")
+		)
+		(instances
+			(project "supercap_bank"
+				(path "/c896fba9-ce18-4c7c-9ca0-858a4c405263"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS_FTSH-1xx-04-L-DH_DATA_BASE:J_FTSH-102-04-L-DH")
+		(at 149.9365 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7b5fe49-f25c-4fc0-8794-611b2b9a3bb6")
+		(property "Reference" "J8"
+			(at 149.9365 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FTSH-102-04-L-DH"
+			(at 149.9365 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "connector_footprints:FTSH-102-04-L-DH"
+			(at 155.0165 95.25 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/ftsh_smt.pdf?_gl=1*uwyfuk*_gcl_au*OTQ3NjE2MTIwLjE3NTQ5MDMyODE.*_ga*NzIxODQzNjU3LjE3NTQ5MDMyODI.*_ga_3KFNZC07WW*czE3NTk5OTE3NDIkbzE1JGcxJHQxNzU5OTkxODU5JGo4JGwwJGgw"
+			(at 155.0165 97.79 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samtec FTSH-1xx-04-L-DH series,  2 positions connector,  1.27 mm pitch,  Black,  Horizontal mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
+			(at 155.0165 100.33 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Black"
+			(at 155.0165 102.87 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 155.0165 105.41 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "5.2"
+			(at 155.0165 107.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FTSH-102-04-L-DH"
+			(at 155.0165 110.49 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 155.0165 113.03 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Horizontal"
+			(at 155.0165 115.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Surface Mount"
+			(at 155.0165 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "2"
+			(at 155.0165 120.65 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 155.0165 123.19 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "1.27"
+			(at 155.0165 125.73 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "FTSH-1xx-04-L-DH"
+			(at 155.0165 128.27 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_FTSH-102-04-L-DH"
+			(at 155.0165 130.81 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FTSH-102-04-L-DH"
+			(at 155.0165 133.35 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 155.0165 135.89 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c69c2da0-2f44-413e-af06-8392ffcd0122")
+		)
+		(pin "4"
+			(uuid "c368036c-9344-4a97-90c4-0c385843cdce")
+		)
+		(pin "2"
+			(uuid "d76130f4-1d0b-4251-a234-5361f5d68e13")
+		)
+		(pin "3"
+			(uuid "5d509f98-1c9b-43b1-8adb-5f22f4f5a96f")
+		)
+		(instances
+			(project "supercap_bank"
+				(path "/c896fba9-ce18-4c7c-9ca0-858a4c405263"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CAPACITORS_HV_DATA_BASE:C_HV1030-2R7106-R")
+		(at 165.1 54.61 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2e0ebbb-73f3-4aa3-98e7-6fcb0bfc890c")
+		(property "Reference" "C20"
+			(at 168.91 52.5779 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10 F"
+			(at 168.91 55.1179 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "capacitor_footprints:C_197x394_H31_5_5_0x10Metric"
+			(at 172.72 54.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-hv-supercapacitors-cylindrical-cells-data-sheet.pdf"
+			(at 175.26 54.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 10 F Supercapacitor 10% 197x394_H31_5 2.7V"
+			(at 177.8 54.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Capacitor Type" "Supercapacitor"
+			(at 180.34 54.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - in" "197x394_H31_5"
+			(at 182.88 54.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case Code - mm" "5_0x10"
+			(at 185.42 54.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "Supercapacitor"
+			(at 187.96 54.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HV1030-2R7106-R"
+			(at 190.5 54.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Eaton Electronics"
+			(at 193.04 54.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "HV1030-2R7"
+			(at 195.58 54.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "C_HV1030-2R7106-R"
+			(at 198.12 54.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 200.66 54.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/HV1030-2R7106-R"
+			(at 203.2 54.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "2.7V"
+			(at 205.74 54.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "265c39b4-b658-46e7-b447-c693d7d6bd07")
+		)
+		(pin "1"
+			(uuid "cd7375d6-af69-4565-8075-7f311a11e2fd")
+		)
+		(instances
+			(project "supercap_bank"
+				(path "/c896fba9-ce18-4c7c-9ca0-858a4c405263"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_NO_COMPONENTS_DATA_BASE:Fiducial")
+		(at 139.7 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4b4ae33-5297-4aed-af34-4586f6b4f56e")
+		(property "Reference" "FID1"
+			(at 142.24 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 142.24 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "no_components_footprints:Fiducial_0.5mm_Mask1mm"
+			(at 139.7 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 139.7 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "supercap_bank"
+				(path "/c896fba9-ce18-4c7c-9ca0-858a4c405263"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_NO_COMPONENTS_DATA_BASE:Fiducial")
+		(at 165.1 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5a49831-a4a2-4f9c-8808-6d4d2ceee41c")
+		(property "Reference" "FID3"
+			(at 167.64 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 167.64 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "no_components_footprints:Fiducial_0.5mm_Mask1mm"
+			(at 165.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 165.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "supercap_bank"
+				(path "/c896fba9-ce18-4c7c-9ca0-858a4c405263"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
