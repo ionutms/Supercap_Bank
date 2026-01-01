@@ -4,14 +4,14 @@ views:
     suffix: '_side'
     zoom_factor: 0.9
     rotate: '315,360,405'
-    pan: '0,-3,0'
+    pan: '0,-2,0'
     light_elevation: 60
     side: 'top'  # (top, bottom, left, right, front, back)
     
   top:
     prefix: '2_'
     suffix: '_top'
-    zoom_factor: 1
+    zoom_factor: 0.98
     rotate: '0,0,0'
     pan: '0,0,0'
     light_elevation: 60
@@ -20,7 +20,7 @@ views:
   bottom:
     prefix: '3_'
     suffix: '_bottom'
-    zoom_factor: 1
+    zoom_factor: 0.98
     rotate: '0,0,0'
     pan: '0,0,0'
     light_elevation: 60
@@ -31,7 +31,7 @@ views:
     suffix: '_left'
     zoom_factor: 1
     rotate: '0,0,0'
-    pan: '0,0,0'
+    pan: '0,-2,0'
     light_elevation: 60
     side: 'left'
     
@@ -40,7 +40,7 @@ views:
     suffix: '_right'
     zoom_factor: 1
     rotate: '0,0,0'
-    pan: '0,0,0'
+    pan: '0,-2,0'
     light_elevation: 60
     side: 'right'
     
@@ -49,7 +49,7 @@ views:
     suffix: '_front'
     zoom_factor: 1
     rotate: '0,0,0'
-    pan: '0,0,0'
+    pan: '0,-2,0'
     light_elevation: 60
     side: 'front'
     
@@ -58,18 +58,9 @@ views:
     suffix: '_back'
     zoom_factor: 1
     rotate: '0,0,0'
-    pan: '0,0,0'
+    pan: '0,-2,0'
     light_elevation: 60
     side: 'back'
-    
-  test:
-    prefix: '8_'
-    suffix: '_test'
-    zoom_factor: 1
-    rotate: '0,0,0'
-    pan: '0,0,0'
-    light_elevation: 60
-    side: 'top'
 
 defaults:
   zoom_factor: 1.0
