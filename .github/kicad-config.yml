@@ -31,7 +31,7 @@ views:
     suffix: '_left'
     zoom_factor: 1
     rotate: '0,0,0'
-    pan: '0,-2,0'
+    pan: '0,-3,0'
     light_elevation: 60
     side: 'left'
     
@@ -40,7 +40,7 @@ views:
     suffix: '_right'
     zoom_factor: 1
     rotate: '0,0,0'
-    pan: '0,-2,0'
+    pan: '0,-3,0'
     light_elevation: 60
     side: 'right'
     
@@ -49,7 +49,7 @@ views:
     suffix: '_front'
     zoom_factor: 1
     rotate: '0,0,0'
-    pan: '0,-2,0'
+    pan: '0,-3,0'
     light_elevation: 60
     side: 'front'
     
@@ -58,7 +58,7 @@ views:
     suffix: '_back'
     zoom_factor: 1
     rotate: '0,0,0'
-    pan: '0,-2,0'
+    pan: '0,-3,0'
     light_elevation: 60
     side: 'back'
 
