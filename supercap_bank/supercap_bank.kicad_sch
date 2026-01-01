@@ -1516,7 +1516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "053e49ef-cea1-4cec-bb0b-68f51ae574b4")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 149.9365 58.42 0)
 			(effects
 				(font
@@ -1735,7 +1735,7 @@
 		(instances
 			(project ""
 				(path "/c896fba9-ce18-4c7c-9ca0-858a4c405263"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -1819,7 +1819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38bff0dc-80e1-4b61-94c9-0ef849b865e4")
-		(property "Reference" "C23"
+		(property "Reference" "C1"
 			(at 168.91 105.9179 90)
 			(effects
 				(font
@@ -2000,7 +2000,7 @@
 		(instances
 			(project "supercap_bank"
 				(path "/c896fba9-ce18-4c7c-9ca0-858a4c405263"
-					(reference "C23")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2016,7 +2016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4015ad95-ec35-46f3-b4ef-ceced06c406d")
-		(property "Reference" "FID2"
+		(property "Reference" "FID1"
 			(at 154.94 133.3499 0)
 			(effects
 				(font
@@ -2067,7 +2067,7 @@
 		(instances
 			(project "supercap_bank"
 				(path "/c896fba9-ce18-4c7c-9ca0-858a4c405263"
-					(reference "FID2")
+					(reference "FID1")
 					(unit 1)
 				)
 			)
@@ -2083,7 +2083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dec6d9e-fe19-4e83-be2a-845cbf937cf2")
-		(property "Reference" "J10"
+		(property "Reference" "J1"
 			(at 149.9365 129.54 0)
 			(effects
 				(font
@@ -2302,7 +2302,7 @@
 		(instances
 			(project "supercap_bank"
 				(path "/c896fba9-ce18-4c7c-9ca0-858a4c405263"
-					(reference "J10")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2319,7 +2319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86aa96f2-0822-4d7e-b907-8278268c8c09")
-		(property "Reference" "C22"
+		(property "Reference" "C2"
 			(at 168.91 88.1379 90)
 			(effects
 				(font
@@ -2500,7 +2500,7 @@
 		(instances
 			(project "supercap_bank"
 				(path "/c896fba9-ce18-4c7c-9ca0-858a4c405263"
-					(reference "C22")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2517,7 +2517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ff77777-7e16-473a-b59e-9b36359c5e4f")
-		(property "Reference" "C21"
+		(property "Reference" "C3"
 			(at 168.91 70.3579 90)
 			(effects
 				(font
@@ -2698,7 +2698,7 @@
 		(instances
 			(project "supercap_bank"
 				(path "/c896fba9-ce18-4c7c-9ca0-858a4c405263"
-					(reference "C21")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2714,7 +2714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad52797c-e72d-406d-aae3-a05f60299af6")
-		(property "Reference" "J9"
+		(property "Reference" "J2"
 			(at 149.9365 111.76 0)
 			(effects
 				(font
@@ -2933,7 +2933,7 @@
 		(instances
 			(project "supercap_bank"
 				(path "/c896fba9-ce18-4c7c-9ca0-858a4c405263"
-					(reference "J9")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2949,7 +2949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2e18041-55dc-42cd-8789-ddd943759973")
-		(property "Reference" "J7"
+		(property "Reference" "J4"
 			(at 149.86 76.2 0)
 			(effects
 				(font
@@ -3168,7 +3168,7 @@
 		(instances
 			(project "supercap_bank"
 				(path "/c896fba9-ce18-4c7c-9ca0-858a4c405263"
-					(reference "J7")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3184,7 +3184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7b5fe49-f25c-4fc0-8794-611b2b9a3bb6")
-		(property "Reference" "J8"
+		(property "Reference" "J3"
 			(at 149.9365 93.98 0)
 			(effects
 				(font
@@ -3403,7 +3403,7 @@
 		(instances
 			(project "supercap_bank"
 				(path "/c896fba9-ce18-4c7c-9ca0-858a4c405263"
-					(reference "J8")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3420,7 +3420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2e0ebbb-73f3-4aa3-98e7-6fcb0bfc890c")
-		(property "Reference" "C20"
+		(property "Reference" "C4"
 			(at 168.91 52.5779 90)
 			(effects
 				(font
@@ -3601,7 +3601,7 @@
 		(instances
 			(project "supercap_bank"
 				(path "/c896fba9-ce18-4c7c-9ca0-858a4c405263"
-					(reference "C20")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3617,7 +3617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4b4ae33-5297-4aed-af34-4586f6b4f56e")
-		(property "Reference" "FID1"
+		(property "Reference" "FID3"
 			(at 142.24 133.3499 0)
 			(effects
 				(font
@@ -3668,7 +3668,7 @@
 		(instances
 			(project "supercap_bank"
 				(path "/c896fba9-ce18-4c7c-9ca0-858a4c405263"
-					(reference "FID1")
+					(reference "FID3")
 					(unit 1)
 				)
 			)
@@ -3684,7 +3684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5a49831-a4a2-4f9c-8808-6d4d2ceee41c")
-		(property "Reference" "FID3"
+		(property "Reference" "FID2"
 			(at 167.64 133.3499 0)
 			(effects
 				(font
@@ -3735,7 +3735,7 @@
 		(instances
 			(project "supercap_bank"
 				(path "/c896fba9-ce18-4c7c-9ca0-858a4c405263"
-					(reference "FID3")
+					(reference "FID2")
 					(unit 1)
 				)
 			)
