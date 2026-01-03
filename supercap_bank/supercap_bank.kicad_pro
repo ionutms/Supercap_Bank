@@ -509,7 +509,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../3D_Models_Vault/3D_models/modules/supercap_bank.step",
       "svg": "",
       "vrml": ""
     },
